@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
+    <script type="text/javascript" src="../script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="../html/ENabout.html"><img class="menu-logo" src="../media/logo.png" alt="João Victor"></a>
+
+        <div class="cabecalho-menu">
+            <nav class="cabecalho-menu-cima" id="secaoInicio"><button class="btn tamanhoItem menu-item-cima" onclick="darkMode()"><img src="../media/pretoebranco.jpg" alt="alternar entre modo escuro e modo claro" width="20px"></button></nav>
+            <nav class="cabecalho-menu-cima">
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('decrease')">A-</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('normal')">A</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('increase')">A+</button>
+
+            </nav>
+
+            <nav class="cabecalho-menu-cima">
+                <a class="menu-item-cima tamanhoItem" href="../index.html">PT</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/ENabout.html">EN</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/ESsobre.html">ES</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/FRpropos.html">FR</a>
+            </nav>
+            <nav class="cabecalho-menu-baixo">
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENabout.html">About</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENrights.html">Rights</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENbrazil.html">Brazil</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENlanguages.html">Languages</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENokinawan.html">Okinawan</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ENlearnmore.html">Learn More</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo tamanhoItem">Languages on Focus:</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo tamanhoItem">Rights, Diversity and Curiosities</h2>
+                <button class="conteudo-principal-escrito-botao tamanhoItem" onclick="rolarParaSecao('secaoConteudo')">Go to content</button>
+
+
+                <!--
+                    Link do código que encontrei a seta animada:
+                        https://codepen.io/RenMan/pen/jwWKMb
+                -->
+                <div class="arrowAnimWrapper">
+                    <div class="arrowAnim">
+                        <div class="arrowSliding">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay1">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay2">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay3">
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <img class="conteudo-principal-imagem" src="../media/sobre.png" alt="Imagem da diversidade em frente ao Congresso">
+        </section>
+        <section class="conteudo-secundario" id="secaoConteudo">
+            <h3 class="conteudo-secundario-titulo tamanhoItem">About</h3>
+            <p class="conteudo-secundario-paragrafo tamanhoItem">This site offers an in-depth approach to language rights, exploring both their broad definition and their specific application in the Brazilian context. Firstly, let's clarify the fundamental importance of these rights, which aim to safeguard
+                and encourage the use of different languages in different social spheres. In the Brazilian scenario, we highlight the complexity of <strong> linguistic diversity,</strong> addressing the rights linked to
+                <strong>indigenous languages, the Brazilian Sign Language (Libras) and bilingual education,</strong> emphasising the legislative relevance of these aspects for an inclusive society. We also explore heritage languages, highlighting how
+                the communities that have chosen Brazil as their home contribute to the national linguistic panorama. </p>
+            <p class="conteudo-secundario-paragrafo tamanhoItem">In a more specific analysis, we look at the <strong>Okinawan language,</strong>its origins in Japan and its resilience in Brazil, recognised by UNESCO as being in danger of dying out. We also highlight local initiatives, such as the free <strong>Uchinaaguchi</strong>                course in São Paulo, highlighting the urgent need for preservation. By inviting visitors to explore the interconnections between language, culture and linguistic rights, our website seeks not only to inform, but also to celebrate the richness
+                and linguistic diversity present in Brazil, highlighting the ongoing efforts to protect and promote it.
+            </p>
+        </section>
+        <section class="conteudo-terciario">
+            <h4 class="conteudo-terciario-titulo tamanhoItem">Explore by clicking. We have some interesting information for you!</h4>
+            <div class="conteudo-terciario-blocos">
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ENrights.html"><img class="conteudo-terciario-imagem" src="../media/direitosLing.png" alt="Homem negro com o globo terrestre atrás e cercado de objetos científicos"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ENrights.html">Rights</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ENbrazil.html"><img class="conteudo-terciario-imagem" src="../media/direitos.png" alt="Congresso nacional ao fundo com pessoas de diversas etnias se aproximando da tela"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ENbrazil.html">Brazil</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ENlanguages.html"><img class="conteudo-terciario-imagem" src="../media/linguas.png"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ENlanguages.html">Languages</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ENokinawan.html"><img class="conteudo-terciario-imagem" src="../media/okinawa.svg"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ENokinawan.html">Okinawan</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ENlearnmore.html"><img class="conteudo-terciario-imagem" src="../media/saibamais.jpeg"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ENlearnmore.html">Learn More</a>
+                </div>
+
+            </div>
+            <button class="conteudo-terciario-botao tamanhoItem" onclick="rolarParaSecao('secaoInicio')">Go back to top</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a href="../html/ENabout.html"><img class="rodape-imagem" src="../media/logo.png" alt="João Victor"></a>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Okinawano</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
+    <script type="text/javascript" src="../script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="./ESsobre.html"><img class="menu-logo" src="../media/logo.png" alt="João Victor"></a>
+
+        <div class="cabecalho-menu">
+            <nav class="cabecalho-menu-cima" id="secaoInicio"><button class="btn tamanhoItem menu-item-cima" onclick="darkMode()"><img src="../media/pretoebranco.jpg" alt="alternar entre modo escuro e modo claro" width="20px"></button></nav>
+            <nav class="cabecalho-menu-cima">
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('decrease')">A-</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('normal')">A</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('increase')">A+</button>
+
+            </nav>
+
+            <nav class="cabecalho-menu-cima">
+                <a class="menu-item-cima tamanhoItem" href="./PTokinawano.html">PT</a>
+                <a class="menu-item-cima tamanhoItem" href="./ENokinawan.html">EN</a>
+                <a class="menu-item-cima tamanhoItem" href="./ESokinawano.html">ES</a>
+                <a class="menu-item-cima tamanhoItem" href="./FRokinawaien.html">FR</a>
+            </nav>
+            <nav class="cabecalho-menu-baixo">
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESsobre.html">Sobre</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESderechos.html">Derechos</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESbrasil.html">Brasil</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESlenguas.html">Lenguas</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESokinawano.html">Okinawano</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/ESsabermas.html">Saber más</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo tamanhoItem">Okinawano</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo tamanhoItem">Explorando la riqueza de la lengua okinawana
+
+                    <br> en el contexto brasileño</h2>
+                <button class="conteudo-principal-escrito-botao tamanhoItem" onclick="rolarParaSecao('secaoConteudo')">Ir al contenido</button>
+
+
+                <!--
+                    Link do código que encontrei a seta animada:
+                        https://codepen.io/RenMan/pen/jwWKMb
+                -->
+                <div class="arrowAnimWrapper">
+                    <div class="arrowAnim">
+                        <div class="arrowSliding">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay1">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay2">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay3">
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <img class="conteudo-principal-imagem" src="../media/okinawaLandPg.png" alt="Imagem da diversidade em frente ao Congresso">
+        </section>
+
+
+        <section class="conteudo-secundario" id="secaoConteudo">
+            <h3 class="conteudo-secundario-titulo tamanhoItem">Uchinaa</h3>
+
+
+            <div class="conteudo-secundario-estrutura">
+                <div class="imagem-legenda">
+                    <img class="conteudo-secundario-imagem" id="ilhasImg" src="../media/ilhas.jpeg">
+                    <p class="legenda1 tamanhoItem">
+                        Localización de las islas Ryukyuu
+                    </p>
+                </div>
+                <div class="conteudo-secundario-estrutura1 ">
+                    <p class="conteudo-secundario-paragrafo-ok tamanhoItem" id="textAlinharEs">
+                        Uchinaa era un reino soberano con tradiciones y lenguas propias, muchas de ellas con una fuerte influencia del contacto con otros reinos del este asiático.
+                        <br><br> Ubicado en las islas Ryukyuu/Nansei al suroeste del archipiélago japonés. Hoy en día, la ubicación corresponde a la prefectura de Okinawa, territorio anexado en 1872 por el imperio japonés.
+                        <br><br> Se tomaron varias medidas de borrado y represión de la cultura local, incluso con la imposición del idioma japonés en el territorio y la prohibición del habla de las lenguas nativas en la isla, afectando desde la enseñanza
+                        del idioma en las escuelas hasta las manifestaciones religiosas.
+                        <br><br> Con el advenimiento de la Segunda Guerra Mundial, quedó bajo el dominio de los Estados Unidos, siendo llamada Ryukyuu. Durante este período, la violencia reforzó aún más el menosprecio por la cultura y los habitantes de
+                        la isla. En 1972 fue reintegrada a Japón.
+
+                    </p>
+                </div>
+            </div>
+            <p class="conteudo-secundario-paragrafo-ok tamanhoItem">
+                Es relevante la observación de (TOMA, 2022) sobre el nombre Okinawa, otorgado por los japoneses, que es "una entre las diferentes designaciones que el archipiélago ha recibido, cada una con una carga histórica y política diferente".
+                <br><br> Por otro lado, Uchinaa es una autodenominación dada por los pueblos indígenas (uchinachus), que son reconocidos como tales por la ONU desde 1989. </p>
+
+
+            <p class="conteudo-secundario-paragrafo-ok tamanhoItem">
+                Muchas de las consecuencias de este doble colonialismo persisten, ya que el uchinaaguchi (lengua de Uchinaa) o okinawano está clasificado por la UNESCO “como en grave peligro de extinción
+
+            </p>
+
+        </section>
+
+        <section class="conteudo-terceiro">
+
+            <h3 class="conteudo-terceiro-titulo tamanhoItem">Migración a Brasil</h3>
+
+
+            <div class="conteudo-terceiro-estrutura">
+                <div class="imagem-legenda">
+                    <img class="conteudo-terceiro-imagem" src="../media/kasatoMaru.png">
+                    <p class="legenda2 tamanhoItem">
+                        Kasato Maru en el puerto de Santos en 1908.
+                    </p>
+                </div>
+                <div class="conteudo-terceiro-estrutura1" id="textAlinharDi">
+                    <p class="conteudo-terceiro-paragrafo tamanhoItem">
+                        El 42% de los inmigrantes provenientes de Japón en 1908, a bordo del Kasato Maru, el primer barco japonés que inició el período de inmigración japonesa en Brasil, eran de Okinawa.
+                        <br><br>En la actualidad, los inmigrantes y sus descendientes, clasificados como nikkeis, representan el 10% de la comunidad japonesa. Esto equivale a 150 mil personas de origen okinawense dentro del millón y medio de japoneses
+                        en territorio brasileño.
+                        <br><br>Cómo esta política de prohibición no existía en Brasil, los inmigrantes continuaron comunicándose en su idioma materno y transmitiéndolo a sus descendientes.
+                        <br><br>Debido a las políticas adoptadas, es posible que el idioma tenga actualmente más hablantes en Brasil que en Japón. </p>
+                </div>
+            </div>
+
+            <p class="conteudo-terceiro-paragrafo tamanhoItem">
+                Varias asociaciones promueven la cultura y el idioma okinawano en Brasil. En São Paulo, por ejemplo, el Colegio Exatus ofrece el curso de okinawano de forma gratuita para los interesados.
+
+            </p>
+            <p class="conteudo-terceiro-paragrafo tamanhoItem">
+                En el Distrito Federal, la colonia agrícola de Vargem Bonita cuenta con una asociación (kaikan) que organiza eventos culturales, gastronómicos, actividades deportivas y es la sede del grupo de taiko (tambores) Ryukyu Koku Matsuri Daiko (琉球國祭り太鼓) - sucursal
+                Brasília.
+
+            </p>
+
+
+            <p class="conteudo-terceiro-paragrafo tamanhoItem">
+                Una de las formas de mantener viva la cultura y el idioma de Uchinaa es a través de danzas y canciones tradicionales, como se muestra en el siguiente video: </p>
+            <div class="conteudo-terceiro-estruturaVid">
+
+                <div class="conteudo-terceiro-estruturaVid1">
+
+                    <iframe class="video" src="https://www.youtube.com/embed/0h5T6Wez38I" title="Ryukyu koku Matsuri Daiko-TOKI WO KOE -Show 112anos Imigração Japonesa no Brasil." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!---->
+                    <p class="conteudo-terceiro-paragrafo tamanhoItem" id="textAlinharEs">
+                        El video muestra una actuación de la canción Toki wo Koe - Más Allá del Tiempo, por un grupo de taiko en celebración a los 112 años de inmigración japonesa en Brasil. La canción narra los eventos de la Batalla de Okinawa ocurrida durante la Segunda Guerra
+                        Mundial y la perseverancia del pueblo okinawense.
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+        <section class="conteudo-terciario">
+            <h4 class="conteudo-terciario-titulo tamanhoItem">Explore por clic. ¡Tenemos informaciones interesantes para usted!</h4>
+            <div class="conteudo-terciario-blocos">
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ESsobre.html"><img class="conteudo-terciario-imagem" src="../media/sobre.png"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ESsobre.html">Sobre</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ESderechos.html"><img class="conteudo-terciario-imagem" src="../media/direitosLing.png" alt="Homem negro com o globo terrestre atrás e cercado de objetos científicos"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ESderechos.html">Derechos</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ESbrasil.html"><img class="conteudo-terciario-imagem" src="../media/direitos.png"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ESbrasil.html">Brasil</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ESlenguas.html"><img class="conteudo-terciario-imagem" src="../media/linguas.png"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ESlenguas.html">Lenguas</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/ESsabermas.html"><img class="conteudo-terciario-imagem" src="../media/saibamais.jpeg"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/ESsabermas.html">Saber Más</a>
+                </div>
+
+            </div>
+            <button class="conteudo-terciario-botao tamanhoItem" onclick="rolarParaSecao('secaoInicio')">Volver al inicio</button> </section>
+    </main>
+
+    <footer class="rodape">
+        <a href="../html/ESsobre.html"><img class="rodape-imagem" src="../media/logo.png" alt="João Victor"></a>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

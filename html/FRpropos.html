@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>À Propos</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen" />
+    <script type="text/javascript" src="../script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="../html/FRpropos.html"><img class="menu-logo" src="../media/logo.png" alt="João Victor"></a>
+
+        <div class="cabecalho-menu">
+            <nav class="cabecalho-menu-cima" id="secaoInicio"><button class="btn tamanhoItem menu-item-cima" onclick="darkMode()"><img src="../media/pretoebranco.jpg" alt="alternar entre modo escuro e modo claro" width="20px"></button></nav>
+            <nav class="cabecalho-menu-cima">
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('decrease')">A-</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('normal')">A</button>
+                <button class="btn tamanhoItem menu-item-cima" onclick="changeFontSize('increase')">A+</button>
+
+            </nav>
+
+            <nav class="cabecalho-menu-cima">
+                <a class="menu-item-cima tamanhoItem" href="../index.html">PT</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/ENabout.html">EN</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/ESsobre.html">ES</a>
+                <a class="menu-item-cima tamanhoItem" href="../html/FRpropos.html">FR</a>
+            </nav>
+            <nav class="cabecalho-menu-baixo">
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRpropos.html">À Propos</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRdroits.html">Droits</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRbresil.html">Brésil</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRlangues.html">Langues</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRokinawaien.html">Okinawaïen</a>
+                <a class="menu-item-baixo tamanhoItem" href="../html/FRsavoirplus.html">Savoir Plus</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo tamanhoItem">Langues en point :</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo tamanhoItem">Droits, Diversité et Curiosités</h2>
+                <button class="conteudo-principal-escrito-botao tamanhoItem" onclick="rolarParaSecao('secaoConteudo')">Accéder au contenu</button>
+
+
+                <!--
+                    Link do código que encontrei a seta animada:
+                        https://codepen.io/RenMan/pen/jwWKMb
+                -->
+                <div class="arrowAnimWrapper">
+                    <div class="arrowAnim">
+                        <div class="arrowSliding">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay1">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay2">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay3">
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <img class="conteudo-principal-imagem" src="../media/sobre.png" alt="Imagem da diversidade em frente ao Congresso">
+        </section>
+        <section class="conteudo-secundario" id="secaoConteudo">
+            <h3 class="conteudo-secundario-titulo tamanhoItem">À Propos</h3>
+            <p class="conteudo-secundario-paragrafo tamanhoItem">Ce site offre une approche approfondie sur les droits linguistiques en explorant tant la définition globale que leur application spécifique au scénario brésilien. Au départ, on explique la fondamentale importance de ces droits, qui ont de
+                but préserver et fomenter l’usage de plusieurs langues sur des contextes sociaux distincts. Sur le scénario brésilien, soulignons la complexité de <strong>la diversité linguistique,</strong> en approchant les droits liés aux <strong>langues autochtones, à la langue brésilienne de signes (Libras) et à l'enseigne bilingue,</strong>                en soulignant la pertinence législative de ceux pour une société inclusive. Au-delà, nous explorons les langues d’héritage, en mettant en évidence comment les communautés qui choisirent le Brésil pour habiter contribuent par le panorama
+                linguistique national. </p>
+            <p class="conteudo-secundario-paragrafo tamanhoItem">Sur l’analyse en profondeur, nous nous penchons sur <strong>la langue okinawaïenne,</strong> son origine au Japon et la trajectoire de résilience au Brésil, reconnue par l’UNESCO comme menacée d’extinction. Nous mettons en évidence encore
+                des initiatives locales, comme les classes gratuites de <strong>Uchinaaguchi</strong> à São Paulo, en montrant la nécessité émergente de préservation. Après inviter les visiteurs à explorer les interconnections entre langue, culture et
+                droits linguistiques, notre site ne cherche pas seulement à l’informer, mais aussi célébrer la richesse et la diversité linguistique présente au Brésil, mettant l’accent sur les efforts constants par la protection et la promotion.
+            </p>
+        </section>
+        <section class="conteudo-terciario">
+            <h4 class="conteudo-terciario-titulo tamanhoItem">Explorez en cliquant. Nous avons des informations intéressantes pour vous !</h4>
+            <div class="conteudo-terciario-blocos">
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/FRdroits.html"><img class="conteudo-terciario-imagem" src="../media/direitosLing.png" alt="Homem negro com o globo terrestre atrás e cercado de objetos científicos"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/FRdroits.html">Droits</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/FRbresil.html"><img class="conteudo-terciario-imagem" src="../media/direitos.png" alt="Congresso nacional ao fundo com pessoas de diversas etnias se aproximando da tela"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/FRbresil.html">Brésil</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/FRlangues.html"><img class="conteudo-terciario-imagem" src="../media/linguas.png"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/FRlangues.html">Langues</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/FRokinawaien.html"><img class="conteudo-terciario-imagem" src="../media/okinawa.svg"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/FRokinawaien.html">Okinawaïen</a>
+                </div>
+                <div class="conteudo-terciario-bloco">
+                    <a href="../html/FRsavoirplus.html"><img class="conteudo-terciario-imagem" src="../media/saibamais.jpeg"></a>
+                    <a class="terciario-legenda tamanhoItem" href="../html/FRsavoirplus.html">Savoir Plus</a>
+                </div>
+
+            </div>
+            <button class="conteudo-terciario-botao tamanhoItem" onclick="rolarParaSecao('secaoInicio')">Retour au début</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a href="../html/FRpropos.html"><img class="rodape-imagem" src="../media/logo.png" alt="João Victor"></a>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
